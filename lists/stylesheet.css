@@ -1,0 +1,26 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: gradient(rgb(23,245,234),rgb(34,23,64)) url(cat\ image.jpg) repeat-x ;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        ol.lower-alpha {
+            list-style-type: lower-alpha;
+        }
+        ol.roman {
+            list-style-type: upper-roman;
+        }
+        ul.square {
+            list-style-type: square;
+        }
+        dl dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        dl dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
