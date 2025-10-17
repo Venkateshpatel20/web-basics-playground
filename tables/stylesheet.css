@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  padding: 10px;
+  border-spacing: 10px;
+  /* border-collapse:separate; */
+}
+th,
+td {
+  border: 1px solid black;
+
+  text-align: center;
+  padding: 20px;
+  /* width : 100%; */
+}
+.table4{
+    
+            border:solid rgb(59, 59, 182);
+            
+}
+.table2{
+    
+            border:2px solid red;
+            border-collapse:separate;
+            width:100%;
+            text-align:center;
+            /* th,td{ */
+            /* border:solid rgb(59, 59, 182); */
+            
+        }
+       
