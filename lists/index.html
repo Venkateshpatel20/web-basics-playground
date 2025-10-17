@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!--Lists in html are three main types-->
+    <!--UnOrdered Lists-->
+    <h1>The types of lists in html</h1>
+    <p>UnOrdered Lists</p>
+    <p>unordered lists with Square list-style-type</p>
+    <ul style="list-style-type:square">
+        <!--we can also give values to attribute list-style-type like round --1,2,3,4,circle -- oo,square --..,and so on -->
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <h2><strong>nested list</strong></h2>
+    <ul>
+        <li>coffee
+            <ul style="list-style-type:round;">
+                <li>black coffee</li>
+                <li>red coffee</li>
+            </ul>
+        </li>
+        <li>mango juice</li>
+        <li>red label</li>
+    
+    </ul>
+    <h2>Ordered List </h2>
+    <p>Data Structures</p>
+    <ol>
+        <li>Arrays</li>
+        <li>Linkedlist</li>
+        <li>Strings</li>
+        <li>Stack</li>
+        <li>Queues</li>
+        <li>Dictionaries</li>
+    </ol>
+    <p>web dev technologies</p>
+    <h1>lists items with Roman numbers</h1>
+    <ol type="I" reversed>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <ol type="A" >
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <ol type="1" start=10 reversed >
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+    <h2 style="color:blue">Let's see the desciption lists</h2>
+    <!-- <p>tags used in it are</p>
+        <pre><dl></pre>description lists
+        <pre><dt></pre> decsription data item
+        <pre><dd></pre> description details
+    </p> -->
+    <p>tags used in dexription lists</p>
+    <pre>
+        Use the <code>&lt;dl&gt;</code> -- for description list intialization
+        Use the <code>&lt;dt&gt;</code> -- for description list item 
+        Use the <code>&ltdd&gt</code> -- for the description of data item
+    </pre>
+    <dl>
+        <dt>coffee</dt>
+        <dd>it is good for heart</dd>
+        <dt>tea</dt>
+        <dd>good for your gut health</dd>
+        <dt>milk</dt>
+        <dd>rich in minerals like Calcium Iron</dd>
+    </dl>
+    <br>
+
+    <h1>HTML List Types and Features</h1>
+
+    <!-- Unordered List -->
+    <h2>Unordered List (Bullets)</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Unordered List with Square Bullets</h3>
+    <ul class="square">
+        <li>React</li>
+        <li>Vue</li>
+        <li>Angular</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Ordered List (Numbers)</h2>
+    <ol>
+        <li>Install VS Code</li>
+        <li>Write HTML</li>
+        <li>Preview in browser</li>
+    </ol>
+
+    <h3>Ordered List with Lowercase Letters</h3>
+    <ol class="lower-alpha">
+        <li>Step A</li>
+        <li>Step B</li>
+        <li>Step C</li>
+    </ol>
+
+    <h3>Ordered List with Roman Numerals</h3>
+    <ol class="roman">
+        <li>Phase I</li>
+        <li>Phase II</li>
+        <li>Phase III</li>
+    </ol>
+
+    <!-- Nested Lists -->
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Frontend
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        </li>
+        <li>Backend
+        <ol>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ol>
+        </li>
+    </ul>
+
+    <!-- Description List -->
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Markup language for creating web pages.</dd>
+
+        <dt>CSS</dt>
+        <dd>Stylesheet language for designing web pages.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Scripting language for dynamic web behavior.</dd>
+    </dl>
+
+</html>
