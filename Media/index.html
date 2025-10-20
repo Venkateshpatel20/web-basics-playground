@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML Media Attributes & CSS Media Queries</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+    <h1>HTML Media Attributes & CSS Media Queries</h1>
+
+    <section>
+        <h2>What is the <code>media</code> attribute in &lt;link&gt; and &lt;style&gt;?</h2>
+        <p>
+            The <code>media</code> attribute specifies for which device or media type the linked or embedded CSS should be applied.
+            It can limit the stylesheets or styles to specific screen sizes, resolutions, printers, speakers, etc.
+        </p>
+        <p>Examples of <code>media</code> attribute values:</p>
+        <ul>
+            <li><code>screen</code>: For computer screens, tablets, smartphones</li>
+            <li><code>print</code>: For print preview and printers</li>
+            <li><code>speech</code>: For screen readers</li>
+            <li>Media queries (e.g., <code>max-width: 768px</code>) to target devices with certain screen widths</li>
+        </ul>
+        <p>Example usage in HTML:</p>
+        <pre>
+&lt;link rel="stylesheet" href="style.css" media="screen and (max-width: 768px)"&gt;
+
+&lt;style media="print"&gt;
+  body { font-size: 12pt; }
+&lt;/style&gt;
+        </pre>
+    </section>
+
+    <section>
