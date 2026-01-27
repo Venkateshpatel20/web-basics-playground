@@ -1,0 +1,46 @@
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", "Verdana";
+    background-color: rgb(168, 204, 236);
+}
+
+header {
+    background-color: hsla(266, 79%, 13%, 0.844);
+    text-align: center;
+    border-radius: 3px;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+}
+
+header>.heading {
+    color: #be1e1e;
+}
+
+a {
+    text-decoration: none;
+}
+
+a::after {
+    color: rgb(38, 255, 0);
+    content: ""
+}
+
+table {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    border-collapse: separate;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 40px;
+    vertical-align: top;
+}
+
+</style>
