@@ -13,4 +13,7 @@
 4. Commit and push
 5. Wait for pull request to be merged
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
