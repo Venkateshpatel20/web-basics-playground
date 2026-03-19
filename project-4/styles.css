@@ -105,9 +105,24 @@ form button {
     padding: 14px;
     border-radius: 15px;
     margin-bottom:20px;
-
+    border:1px solid black; 
 }
 form input:focus,
 form textarea:focus {
     border-color:#b10f0f;
+    outline:none;
+}
+form button {
+    background-color: rgb(55, 55, 237);
+    color:white;
+    font-weight: 600;
+    font-size: 1.1 rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover{
+    background-color: #0056b3;
+}
+form button:active {
+    background-color:red;
 }
