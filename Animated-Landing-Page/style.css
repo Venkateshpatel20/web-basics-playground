@@ -3,16 +3,27 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /* margin: 0;
-    padding: 0; */
+    overflow: hidden;
+     margin: 0;
+     height: 100vh;
+     width: 100%;
+     font-family:    'Trebuchet MS', sans-serif;
+    padding: 0; 
+    position: relative;
+    
 }
 header {
     display:flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    padding: 10% ;
-    height: 60%;
+     padding: 2.5em ;
+    height: 15%;
+    width: 85%; 
+}
+aside {
+    width:12em;
+    margin-right: 0;
 }
 
 ul li {
@@ -20,24 +31,37 @@ ul li {
 
 }
 button {
-    background: none;
+    background: transparent;
 }
-#sign-up {
+#sign-up , #tour-btn{
      height: 3em;
-    width: 10em;
-    border-radius: 10px;
-    border-color:aliceblue;
+    width: 6em;
+    border-radius: 20px;
+    border-color:rgb(35, 73, 106);
     font-size:1em;
     text-align: center;
     padding: 0.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+    
 
 }
-#sign-up:hover{
-    color:red;
+#sign-up:hover , main button:hover{
+    color:rgb(33, 13, 163);
     
     
 }
 main{
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-left: 4em;
+} 
+small {
+    font-size: 1.1em;
+    line-height: 10px;
+}
+h1{
+    font-size: 3.5em;
+    margin-top: auto;
 }
