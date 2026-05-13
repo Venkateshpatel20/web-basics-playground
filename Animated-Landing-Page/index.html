@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Animated Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="main">
+        <img src="assets/logo.png" alt="error" class="logo">
+        <button id="sign-up">Sign Up</button>
+    </header>
+    <main>
+        <div>
+        <h1 id="heading"><span id="sm-heading">Welcome to our</span><br> World's Creative Sudio</h1>
+        <button   id="tour-btn">Take a tour</button>
+    </div>
+    <aside class="nav-bar">
+        <nav class="nav-bar">
+            <img src="assets/menu.png" alt="err" id="menu-btn">
+            <ul class="nav-items"> 
+                <li>
+                    <a href="#www.facebook.com" target="_blank">
+                        <img src="assets/fb.png" alt="facebook">       
+                    </a>
+                </li>
+                <li>
+                    <a href="www.instagram.com" target="_blank">
+                        <img src="assets/ig.png" alt="instagram">       
+                    </a>
+                </li>
+                <li>
+                    <a href="www.twitter.com" target="_blank">
+                        <img src="assets/tw.png" alt="twitter">       
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    </main>
+    <script>
+        document.querySelector("#tour-btn").addEventListener("click" , function() {
+            const section = document.getElementsByClassName("main");
+            section[0].scrollIntoView( { behavior: "smooth" } );
+
+        })
+    </script>
+</body>
+</html>
